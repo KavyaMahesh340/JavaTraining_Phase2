@@ -6,7 +6,7 @@ public class day2_Exceptions {
             int a, b;
             Scanner sc = new Scanner(System.in);
             a = sc.nextInt();
-            `b = sc.nextInt();
+            b = sc.nextInt();
             System.out.println(a / b);
         }
         catch (ArithmeticException e) {
